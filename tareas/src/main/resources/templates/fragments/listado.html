@@ -35,10 +35,10 @@
 					</td>
 					  
 					<td >
-						<a  th:href="@{/detalle/{id} (id=${tarea.id}) }" th:text="${#calendars.format(tarea.fAlta,' dd-MM-yyyy')}"> </a>
+						<a  th:href="@{/detalle/{id} (id=${tarea.id}) }" th:text="${#calendars.format(tarea.f_alta,' dd-MM-yyyy')}"> </a>
 					</th>
 					<td >
-						<a  th:href="@{/detalle/{id} (id=${tarea.id}) }" th:text="${#calendars.format(tarea.fAlert,' dd-MM-yyyy')}"> </a>
+						<a  th:href="@{/detalle/{id} (id=${tarea.id}) }" th:text="${#calendars.format(tarea.f_alert,' dd-MM-yyyy')}"> </a>
 					</th>
 					
 					<td >
@@ -122,7 +122,7 @@
 												</datalist>
 												 
 							 					<div class="input-group date">
-													<input type="text" class="form-control" id="fecha" th:placeholder="${tarea.fAlert}" th:field="*{fAlert}" th:text="${tarea.fAlert}">
+													<input type="text" class="form-control" id="fecha" th:placeholder="${tarea.f_alert}" th:field="*{f_alert}" th:text="${tarea.f_alert}">
 												</div>
 												 	 
 											</div>
@@ -287,7 +287,7 @@
 												</datalist>
 											
 							 					<div class="input-group date">
-													<input type="text" class="form-control" id="fecha" th:placeholder="${activa.fAlert}" th:field="*{fAlert}" th:text="${activa.fAlert}">
+													<input type="text" class="form-control" id="fecha" th:placeholder="${activa.f_alert}" th:field="*{f_alert}" th:text="${activa.f_alert}">
 												</div>	 
 											  
 											</div>
@@ -637,7 +637,7 @@
 												</datalist>
 												
 							 					<div class="input-group date">
-													<input type="text" class="form-control" id="fecha" th:placeholder="${activa.fAlert}" th:field="*{fAlert}" th:text="${activa.fAlert}">
+													<input type="text" class="form-control" id="fecha" th:placeholder="${activa.f_alert}" th:field="*{f_alert}" th:text="${activa.f_alert}">
 												</div>	
 												 
 											</div>

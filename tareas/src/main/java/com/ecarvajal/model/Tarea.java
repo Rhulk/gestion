@@ -15,18 +15,18 @@ public class Tarea {
 
 		@Id
 		@GeneratedValue(strategy=GenerationType.IDENTITY)	
-		private int id;
-		private String tarea;
-		private String prioridad;
-		private String cliente;
+		public int id;
+		public String tarea;
+		public String prioridad;
+		public String cliente;
 		
-		private Date f_alta;
-		private Date f_alert;
-		private String descripcion;
-		private String status;
-		private String solucion;
+		public Date f_alta;
+		public Date f_alert;
+		public String descripcion;
+		public String status;
+		public String solucion;
 		
-		private String municipio;
+		public String municipio;
 
 		public int getId() {
 			return id;
