@@ -59,7 +59,21 @@
          </insert>
      </changeSet>
      
+	<changeSet id="4" author="rhulk">
+		<renameColumn
+	        columnDataType="date"  
+            newColumnName="f_alta"  
+            oldColumnName="fAlta" 
+        tableName="tarea"/> 
+		<renameColumn
+	        columnDataType="date"  
+            newColumnName="f_alert"  
+            oldColumnName="fAlert" 
+        tableName="tarea"/> 
 
+	</changeSet>
+	
+	
 	
 	
      
